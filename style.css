@@ -1,0 +1,53 @@
+body{
+    font-family: monospace;
+    background-color: rgb(82, 165, 165);
+    color: #ffffff;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 20px;
+}
+
+.info{
+    font-size: 25px;
+}
+
+.number{
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    height: 30px;
+}
+
+.btn__convert{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(70, 202, 219);
+    font-size: 20px;
+}
+
+.result{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.btn__convert:hover{
+  cursor: pointer;
+  background-color: rgb(145, 226, 236) ;
+  color: blue;
+  text-decoration: underline;
+}
