@@ -27,6 +27,8 @@ label{
     border-radius: 30px;
     border: none;
     height: 30px;
+    padding-left: 85px ;
+    box-sizing: border-box;
 }
 
 .btn__convert{
